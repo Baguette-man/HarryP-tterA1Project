@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bc9f877-9388-4b40-bc59-80034532a7a7" name="Changes" comment="" />
+    <list default="true" id="fb6e27ea-773b-4843-9658-984966148ed5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +10,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2NPolQ3F3PahFN5vvdQa65Pu9yS" />
+  <component name="ProjectId" id="2NPrPQOE1lqQWFYAneLmcC7WP4I" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,7 +20,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Rafayiel/Documents/GitHub/HarryPotterA1Project",
+    "last_opened_file_path": "C:/Users/Rafayiel/Documents/GitHub/HarryP-tterA1Project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -31,16 +28,25 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Rafayiel\Documents\GitHub\HarryP-tterA1Project" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Rafayiel\Documents\GitHub\HarryP-tterA1Project\.idea" />
+      <recent name="C:\Users\Rafayiel\Documents\GitHub\HarryP-tterA1Project\src" />
+      <recent name="C:\Users\Rafayiel\Documents\GitHub\HarryP-tterA1Project\src\main" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7bc9f877-9388-4b40-bc59-80034532a7a7" name="Changes" comment="" />
-      <created>1679575229172</created>
+      <changelist id="fb6e27ea-773b-4843-9658-984966148ed5" name="Changes" comment="" />
+      <created>1679576533553</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1679575229172</updated>
-      <workItem from="1679575230644" duration="104000" />
-      <workItem from="1679575465934" duration="1086000" />
+      <updated>1679576533553</updated>
+      <workItem from="1679576534790" duration="367000" />
     </task>
     <servers />
   </component>
