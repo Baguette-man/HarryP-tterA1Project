@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb6e27ea-773b-4843-9658-984966148ed5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SortingHat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/HarryP-tterA1Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/HarryP-tterA1Project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fb6e27ea-773b-4843-9658-984966148ed5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +70,7 @@
       <workItem from="1679578325461" duration="60000" />
       <workItem from="1679578454216" duration="356000" />
       <workItem from="1679594038844" duration="651000" />
-      <workItem from="1679594699487" duration="832000" />
+      <workItem from="1679594699487" duration="1019000" />
     </task>
     <servers />
   </component>

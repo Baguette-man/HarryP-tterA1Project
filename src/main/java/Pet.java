@@ -1,2 +1,6 @@
-public class Pet {
+public enum Pet {
+    OWL,
+    RAT,
+    CAT,
+    TOAD
 }

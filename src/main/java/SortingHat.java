@@ -1,9 +1,9 @@
 import java.util.Random;
+
 public class SortingHat {
-    public static House getHouse(){
+    public static int getRandom(){
         Random rand = new Random();
-        rand.nextInt(1,5);
-
-
+        int randInt = rand.nextInt(4);
+        return randInt;
     }
 }
