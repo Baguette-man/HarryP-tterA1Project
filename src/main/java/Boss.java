@@ -1,2 +1,2 @@
-public class Boss extends AbstractEnemy {
+public class Boss extends Character {
 }

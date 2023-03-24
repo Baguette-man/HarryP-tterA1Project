@@ -1,3 +1,7 @@
+package characters;
+import spells.*;
+import items.*;
+import environment.*;
 import java.util.List;
 
 public class Wizard extends Character{
