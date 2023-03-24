@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb6e27ea-773b-4843-9658-984966148ed5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/HarryP-tterA1Project.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="fb6e27ea-773b-4843-9658-984966148ed5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,6 +74,7 @@
       <workItem from="1679594699487" duration="1019000" />
       <workItem from="1679664650760" duration="398000" />
       <workItem from="1679665106098" duration="110000" />
+      <workItem from="1679665233714" duration="30000" />
     </task>
     <servers />
   </component>
