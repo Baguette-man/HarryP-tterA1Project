@@ -12,7 +12,7 @@ public class Main {
         System.out.println("Hi young wizard! To start the game, please enter your name :");
         String wizardName = scanner.nextLine();
         Wizard wizard = new Wizard(wizardName);
-        System.out.println("Nice to meet you "+wizard.getName()+"!");
+        System.out.println("Nice to meet you " + wizard.getName() + "!");
 
         Thread.sleep(3000);
 
@@ -20,7 +20,7 @@ public class Main {
         Thread.sleep(3000);
         Wand wand = new Wand();
         wizard.setWand(wand);
-        System.out.println("Nice! Your wand is made out of "+wand.getWood()+", has a "+wand.getCore()+" and a size of "+wand.getSize()+"cm.");
+        System.out.println("Nice! Your wand is made out of " + wand.getWood() + ", has a " + wand.getCore() + " and a size of " + wand.getSize() + "cm.");
 
         Thread.sleep(3000);
 
@@ -28,10 +28,8 @@ public class Main {
         Thread.sleep(3000);
         House house = new House(SortingHat.getRandom());
         wizard.setHouse(house);
-        System.out.println("You will be a "+house.getName()+"! Congratulations!");
+        System.out.println("You will be a " + house.getName() + "! Congratulations!");
     }
-
-
 
 
     /////////////////////// RUN GAME ////////////////////////////////////////
@@ -41,3 +39,8 @@ public class Main {
         initWizard();
     }
 
+
+
+
+
+}
