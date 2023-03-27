@@ -9,7 +9,7 @@ public class Wizard extends Character{
     public Pet pet;
     public Wand wand;
     public House house;
-    public List<Spell> knownSpells = new ArrayList<>();
+    public List<AbstractSpell> knownSpells = new ArrayList<>();
     public List<Potion> potions = new ArrayList<>();
     public Map<String, Double> stats = new HashMap<>();
     public Wizard(String name){
@@ -70,9 +70,9 @@ public class Wizard extends Character{
 
     public void defend(Wizard wizard,AbstractEnemy enemy) throws InterruptedException {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("You are getting attacked by "+enemy.getName()+"! You have 2 choices : either you try to dodge the attack (it mays fail), other you chose to take the hit and lose less HP. What do wanna do (type 'dodge' or 'take')?  :");
+        System.out.println("You are getting attacked by "+enemy.getName()+"! You have 2 choices : either you try to dodge the attack (it may fail), other you chose to take the hit and lose less HP. What do you wanna do (type 'dodge' or 'take')?  :");
         String choice = scanner.nextLine();
-        while (choice != "dodge" | choice != "take") {
+        while (!choice.equals("dodge") && !choice.equals("take")) {
             System.out.println("Error : Please type 'dodge' or 'take'");
             choice = scanner.nextLine();
         }
@@ -101,10 +101,11 @@ public class Wizard extends Character{
         System.out.println("Drinking "+potion.getName()+"...");
         Thread.sleep(3000);
         wizard.setHealPoints(potion.getHeal()*stats.get("Potions Efficiency")+wizard.getHealPoints());
+        potions.remove(potion);
         System.out.println("You have now "+wizard.getHealPoints()+"HP!");
     }
 
-    public void attackWithSpell(Spell spell, AbstractEnemy enemy) throws InterruptedException {
+    public void attackWithSpell(AbstractSpell spell, AbstractEnemy enemy) throws InterruptedException {
         System.out.println("Using "+spell.getName()+" against "+enemy.getName()+"...");
         Thread.sleep(3000);
         Random rand = new Random();
@@ -114,7 +115,7 @@ public class Wizard extends Character{
         } else {
             System.out.println("Nice hit!");
             enemy.setHealPoints(enemy.getHealPoints()-spell.getDamage()*stats.get("Spells Damages"));
-            isCharacterAlive(enemy);
+            enemy.isCharacterAlive(enemy);
         }
     }
 
@@ -136,10 +137,9 @@ public class Wizard extends Character{
         }
     }
 
-    public void getReward(String potionName, int potionHeal, String spellName, int spellDamage){
-        Potion potion = new Potion(potionName,potionHeal);
+    public void getReward(Potion potion, AbstractSpell abstractSpell){
         potions.add(potion);
-        Spell spell = new Spell(spellName,spellDamage);
-        knownSpells.add(spell);
+        knownSpells.add(abstractSpell);
+        System.out.println("You received "+potion.getName()+" ("+potion.getHeal()+"HP) & "+abstractSpell.getName()+" ("+abstractSpell.getDamage()+"DMG) in your inventory");
     }
 }

@@ -25,8 +25,8 @@ public abstract class Character {
     }
 
     public boolean isCharacterAlive(Character character){
-        if (character.getHealPoints()>=0) {
-            System.out.println(character.getName()+" is still alive with "+character.getHealPoints()+" HP!");
+        if (character.getHealPoints()>0) {
+            System.out.println(character.getName()+" is alive with "+character.getHealPoints()+" HP!");
             return true;
         } else {
             System.out.println(character.getName()+" is dead!");
