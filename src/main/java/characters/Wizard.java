@@ -6,12 +6,15 @@ import environment.*;
 import java.util.*;
 
 public class Wizard extends Character{
+    public int wizTimer = 1;
     public Pet pet;
     public Wand wand;
     public House house;
     public List<AbstractSpell> knownSpells = new ArrayList<>();
     public List<Potion> potions = new ArrayList<>();
     public Map<String, Double> stats = new HashMap<>();
+    
+
     public Wizard(String name){
         this.name = name;
         stats.put("Potions Efficiency", 1.0);
@@ -76,7 +79,7 @@ public class Wizard extends Character{
             System.out.println("Error : Please type 'dodge' or 'take'");
             choice = scanner.nextLine();
         }
-        Thread.sleep(3000);
+        Thread.sleep(wizTimer);
         switch (choice){
             case "dodge":
                 Random rand = new Random();
@@ -99,7 +102,7 @@ public class Wizard extends Character{
 
     public void drinkPotion(Potion potion, Wizard wizard) throws InterruptedException {
         System.out.println("Drinking "+potion.getName()+"...");
-        Thread.sleep(3000);
+        Thread.sleep(wizTimer);
         wizard.setHealPoints(potion.getHeal()*stats.get("Potions Efficiency")+wizard.getHealPoints());
         potions.remove(potion);
         System.out.println("You have now "+wizard.getHealPoints()+"HP!");
@@ -107,16 +110,21 @@ public class Wizard extends Character{
 
     public void attackWithSpell(AbstractSpell spell, AbstractEnemy enemy) throws InterruptedException {
         System.out.println("Using "+spell.getName()+" against "+enemy.getName()+"...");
-        Thread.sleep(3000);
-        Random rand = new Random();
-        int randInt = rand.nextInt(100);
-        if (randInt>100*stats.get("Spells Precision")){
-            System.out.println("Attack failed, you lacked precision!");
+        Thread.sleep(wizTimer);
+        if(enemy.getWeakness()==spell){
+            Random rand = new Random();
+            int randInt = rand.nextInt(100);
+            if (randInt>100*stats.get("Spells Precision")){
+                System.out.println("Attack failed, you lacked precision!");
+            } else {
+                System.out.println("Nice hit!");
+                enemy.setHealPoints(enemy.getHealPoints()-spell.getDamage()*stats.get("Spells Damages"));
+                enemy.isCharacterAlive(enemy);
+            }
         } else {
-            System.out.println("Nice hit!");
-            enemy.setHealPoints(enemy.getHealPoints()-spell.getDamage()*stats.get("Spells Damages"));
-            enemy.isCharacterAlive(enemy);
+            System.out.println("This spell is ineffective on "+enemy.getName()+"! You should rather use "+enemy.getWeakness()+"!");
         }
+
     }
 
     public void getAPet(){
@@ -141,5 +149,14 @@ public class Wizard extends Character{
         potions.add(potion);
         knownSpells.add(abstractSpell);
         System.out.println("You received "+potion.getName()+" ("+potion.getHeal()+"HP) & "+abstractSpell.getName()+" ("+abstractSpell.getDamage()+"DMG) in your inventory");
+    }
+
+    public void lvlUp(){
+        System.out.println("You successfully passed a year of Poudlard!");
+        System.out.println("You have also increased your skills! You get a 10% increase on all your stats!");
+        stats.put("Potions Efficiency",stats.get("Potions Efficiency")*1.1);
+        stats.put("Spells Damages",stats.get("Spells Damages")*1.1);
+        stats.put("Shield",stats.get("Shield")*1.1);
+        stats.put("Spells Precision",stats.get("Spells Precision")*1.1);
     }
 }
