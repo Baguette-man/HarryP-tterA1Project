@@ -272,15 +272,34 @@ public class Game {
                 System.out.println("You currently have "+wizard.weapons.size()+ " weapon(s) : "+ Arrays.toString(wizard.weapons.stream().map((weapon) -> weapon.name).toArray())+". Which one do you want to use (indicate it by its index :0,1,2...)?");
                 break;
         }
-        int choice = scanner.nextInt();
+        String choiceStr = scanner.nextLine();
+        while (!isInteger(choiceStr)) {
+            System.out.println("Error, please enter an integer :");
+            choiceStr = scanner.nextLine();
+        }
+        int choice = Integer.parseInt(choiceStr);
         if (type.equals("Spells") && choice<wizard.knownSpells.size() || type.equals("Potions") && choice<wizard.potions.size() || type.equals("Weapons") && choice<wizard.weapons.size()) {
             return choice;
         } else {
             while (type.equals("Spells") && choice>=wizard.knownSpells.size() || type.equals("Potions") && choice>=wizard.potions.size() || type.equals("Weapons") && choice>=wizard.weapons.size()) {
                 System.out.println("Error, please enter again (the int value needs to be smaller than the list length) :");
-                choice = scanner.nextInt();
+                choiceStr = scanner.nextLine();
+                while (!isInteger(choiceStr)) {
+                    System.out.println("Error, please enter an integer :");
+                    choiceStr = scanner.nextLine();
+                }
+                choice = Integer.parseInt(choiceStr);
             }
             return choice;
+        }
+    }
+
+    public static boolean isInteger(String input){
+        try{
+            Integer.parseInt(input);
+            return true;
+        } catch (NumberFormatException e) {
+            return false;
         }
     }
 }

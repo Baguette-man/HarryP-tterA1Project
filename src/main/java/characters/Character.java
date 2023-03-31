@@ -20,10 +20,6 @@ public abstract class Character {
         this.healPoints = healPoints;
     }
 
-    public void attack(Character character) {
-        System.out.println("I'm attacking xxxxxx");
-    }
-
     public boolean isCharacterAlive(Character character){
         if (character.getHealPoints()>0) {
             System.out.println(character.getName()+" is alive with "+character.getHealPoints()+" HP!");
