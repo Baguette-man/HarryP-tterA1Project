@@ -15,7 +15,7 @@ import java.util.Random;
 import java.util.Scanner;
 
 public class Wizard extends Character {
-    private int wizTimer = 1;
+    private int wizTimer = 3000;
     private Pet pet;
     private Wand wand;
     private House house;

@@ -4,8 +4,6 @@ import items.Weapon;
 import spells.AbstractSpell;
 
 public abstract class AbstractEnemy extends Character {
-    protected String name;
-    protected int healPoints;
     protected int hitPower;
     protected AbstractSpell weakness;
     protected Weapon weakness2;
