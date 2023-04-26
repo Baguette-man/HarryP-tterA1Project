@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb6e27ea-773b-4843-9658-984966148ed5" name="Changes" comment="" />
+    <list default="true" id="fb6e27ea-773b-4843-9658-984966148ed5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Wood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Character.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Core.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SortingHat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SortingHat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Wand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Wand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Wizard.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,6 +62,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Rafayiel\Documents\GitHub\HarryP-tterA1Project" />
+      <recent name="C:\Users\Rafayiel\Documents\GitHub\HarryP-tterA1Project\src\main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Rafayiel\Documents\GitHub\HarryP-tterA1Project\.idea" />
@@ -70,7 +82,7 @@
       <workItem from="1679578325461" duration="60000" />
       <workItem from="1679578454216" duration="356000" />
       <workItem from="1679594038844" duration="651000" />
-      <workItem from="1679594699487" duration="1019000" />
+      <workItem from="1679594699487" duration="1158000" />
     </task>
     <servers />
   </component>
