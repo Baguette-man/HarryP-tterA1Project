@@ -4,40 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb6e27ea-773b-4843-9658-984966148ed5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Wood.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Character.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Core.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Pet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Pet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SortingHat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SortingHat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Wand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Wand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Wizard.java" afterDir="false" />
-    </list>
+    <list default="true" id="7bc9f877-9388-4b40-bc59-80034532a7a7" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2NPrPQOE1lqQWFYAneLmcC7WP4I" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2NPolQ3F3PahFN5vvdQa65Pu9yS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,42 +23,25 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Rafayiel/Documents/GitHub/HarryP-tterA1Project&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Rafayiel/Documents/GitHub/HarryPotterA1Project&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Rafayiel\Documents\GitHub\HarryP-tterA1Project" />
-      <recent name="C:\Users\Rafayiel\Documents\GitHub\HarryP-tterA1Project\src\main" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Rafayiel\Documents\GitHub\HarryP-tterA1Project\.idea" />
-      <recent name="C:\Users\Rafayiel\Documents\GitHub\HarryP-tterA1Project\src" />
-      <recent name="C:\Users\Rafayiel\Documents\GitHub\HarryP-tterA1Project\src\main" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fb6e27ea-773b-4843-9658-984966148ed5" name="Changes" comment="" />
-      <created>1679576533553</created>
+      <changelist id="7bc9f877-9388-4b40-bc59-80034532a7a7" name="Changes" comment="" />
+      <created>1679575229172</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1679576533553</updated>
-      <workItem from="1679576534790" duration="506000" />
-      <workItem from="1679578325461" duration="60000" />
-      <workItem from="1679578454216" duration="356000" />
-      <workItem from="1679594038844" duration="651000" />
-      <workItem from="1679594699487" duration="1158000" />
+      <updated>1679575229172</updated>
+      <workItem from="1679575230644" duration="104000" />
+      <workItem from="1679575465934" duration="1570000" />
+      <workItem from="1679595120690" duration="796000" />
     </task>
     <servers />
   </component>
