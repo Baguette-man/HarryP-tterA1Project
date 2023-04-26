@@ -1,9 +1,27 @@
-
+import java.util.Scanner;
 public class Main {
-
-    public static int timer = 3000;
-
     public static void main(String[] args) throws InterruptedException {
-        new Game().playGame();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Hi young wizard! To start the game, please enter your name :");
+        String wizardName = scanner.nextLine();
+        Wizard wizard = new Wizard(wizardName);
+        System.out.println("Nice to meet you "+wizard.getName()+"!");
+
+        Thread.sleep(3000);
+
+        System.out.println("First, a wand will chose you...");
+        Thread.sleep(3000);
+        Wand wand = new Wand();
+        wizard.setWand(wand);
+        System.out.println("Nice! Your wand is made out of "+wand.getWood()+", has a "+wand.getCore()+" and a size of "+wand.getSize()+"cm.");
+
+        Thread.sleep(3000);
+
+        System.out.println("Now please sit down and put on the sorting hat : He will give you a House...");
+        Thread.sleep(3000);
+        House house = new House(SortingHat.getRandom());
+        wizard.setHouse(house);
+        System.out.println("You will be a "+house.getName()+"! Congratulations!");
+
     }
 }
